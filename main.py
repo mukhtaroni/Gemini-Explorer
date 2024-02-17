@@ -52,10 +52,6 @@ def llm_function(chat: ChatSession, query):
    # Streamlit UI
    st.title("Gemini Explorer Chat")
 
-# Initialize chat session
-if "message" not in st.session_state:
-      st.session_state.message = []
-
 # Display and load chat history
       
    # Initialize chat session
